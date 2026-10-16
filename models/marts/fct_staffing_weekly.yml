@@ -1,0 +1,25 @@
+version: 2
+
+models:
+  - name: fct_staffing_weekly
+    columns:
+      - name: allocation_id
+        data_tests:
+          - unique
+          - not_null
+
+      - name: employee_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_employees')
+                field: employee_id
+      - name: project_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_projects')
+                field: project_id
+            

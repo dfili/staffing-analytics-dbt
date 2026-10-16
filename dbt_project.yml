@@ -1,0 +1,5 @@
+name: staffing_analytics
+version: "1.0.0"
+config-version: 2
+profile: staffing_analytics
+model-paths: ["models"]

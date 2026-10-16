@@ -1,0 +1,5 @@
+project_id,product,project_name,start_date,end_date
+P10,Atlas,Usage metrics refresh,2026-08-03,2026-12-18
+P20,Beacon,Subscription reporting,2026-08-17,2026-11-27
+P30,Cedar,Internal workflow rebuild,2026-09-01,2026-12-11
+P40,Delta,New product discovery,2026-09-14,2026-10-30
